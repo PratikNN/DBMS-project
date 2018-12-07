@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>database</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="home1.css">
+    </head>
+    <body>
+        <div id="wrap">
+            <p id="1">Please fill out the details...</p><br><br>
+            <form method="post" id="home" action="home1.jsp">
+         <h1>1.Warehouse details</h1>
+         
+           
+         <label>Warehouse id:</label><br>
+         
+             <input type="number" name="warehouseid" id="w" placeholder="Number" required>
+             <br><br>
+             <label>Warehouse name:</label><br>
+             <input type="text" name="warehousename" id="w1" placeholder="Warehouse name" required>
+             <br>
+             <br>  <label>Capacity:</label><br>
+             <input type="number" name="capacity" id="w2" placeholder="no.of bags" required>
+             <br><br><label>Storage:</label><br>
+             <input type="number" name="storage" id="w3" placeholder="no.of bags" required>
+             <br>
+             <br><br>
+             
+             <h1>2.Soil test</h1>
+         
+           
+         <label>Soil Id:</label><br>
+         
+             <input type="number" name="soilid" id="s" placeholder="Number">
+             <br><br>
+             <label>Date:</label><br>
+             <input type="date" name="date" id="s1" placeholder="dd/mm/yyyy">
+             <br>
+             <br>  <label>Report:</label><br>
+             <input type="text" name="report" id="s2" placeholder="report details">
+             <br><br><br>
+             <button type="submit" value="submit" id="sub">Submit/Store</button>
+              <button type="reset" value="reset" id="res1">Reset</button>
+              <a href="tips.html" id="a"> SKIP</a>
+  
+            </form>
+        </div>
+            
+      </body>
+</html>
